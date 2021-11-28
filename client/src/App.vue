@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container d-flex flex-column justify-content-center align-items-center mt-5">
-    <h3>Willkommen bei der Service Worker Untersuchung!</h3>
-    <p>hey</p>
+    <img :src="`${serverAddress}/employees.jpg`" class="mx-auto d-block my-3" width="300" alt="picture of employees" />
+    <h1>Hey</h1>
     <ButtonGet @get="fetchData"></ButtonGet>
     <CardView :employees="employees" @del="delEmployee"></CardView>
   </div>
@@ -21,6 +21,7 @@ export default {
   },
   data() {
     return {
+      serverAddress: process.env.VUE_APP_SERVER,
       employees: [],
     };
   },
