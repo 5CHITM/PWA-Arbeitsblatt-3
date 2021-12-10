@@ -1,36 +1,6 @@
 {
   "employees": [
     {
-      "id": 2,
-      "gender": "male",
-      "name": {
-        "title": "Mr",
-        "first": "Elijah",
-        "last": "Stokke"
-      },
-      "location": {
-        "street": "hasleveien 6994",
-        "city": "tinn austbygd",
-        "state": "nord-trøndelag",
-        "postcode": "5409"
-      },
-      "email": "elijah.stokke@example.com",
-      "dob": {
-        "date": "1975-08-05T23:10:55Z",
-        "age": 43
-      },
-      "registered": {
-        "date": "2006-11-06T12:45:46Z",
-        "age": 12
-      },
-      "phone": "58061332",
-      "cell": "44608822",
-      "picture": {
-        "large": "images/portraits/men/37.jpg"
-      },
-      "nat": "NO"
-    },
-    {
       "id": 3,
       "gender": "female",
       "name": {
@@ -269,36 +239,6 @@
         "large": "images/portraits/women/36.jpg"
       },
       "nat": "CA"
-    },
-    {
-      "id": 11,
-      "gender": "female",
-      "name": {
-        "title": "Mrs",
-        "first": "Ellenoor",
-        "last": "Walstra"
-      },
-      "location": {
-        "street": "5817 lichte gaard",
-        "city": "arnhem",
-        "state": "zuid-holland",
-        "postcode": 62398
-      },
-      "email": "ellenoor.walstra@example.com",
-      "dob": {
-        "date": "1955-07-15T17:06:15Z",
-        "age": 63
-      },
-      "registered": {
-        "date": "2004-05-31T21:37:52Z",
-        "age": 14
-      },
-      "phone": "(190)-287-9727",
-      "cell": "(979)-713-9582",
-      "picture": {
-        "large": "images/portraits/women/71.jpg"
-      },
-      "nat": "NL"
     },
     {
       "id": 12,
